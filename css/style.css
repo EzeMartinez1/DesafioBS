@@ -1,0 +1,40 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap');
+
+body {
+  background-image:url(../img/fondo.jpg);
+  background-attachment: fixed;
+  height: 50px;
+  background-position: center;
+  background-size: cover;
+  }
+  nav div a {
+    color: #ffffff;
+    font-family: 'Noto Sans',sans-serif;
+  }
+ body {
+    color: #ffffff;
+    font-family: 'Noto Sans',sans-serif;
+    height: 100%;
+    margin-bottom: 50px;
+ }
+ main section h2 {
+    padding-left: 50px;
+    }
+  main ul li {
+    color: #ffffff;
+    list-style: disc;
+    font-family: 'Noto Sans',sans-serif;
+  }
+.accordion-button {
+  color: #ffffff;
+  background: #212529;
+}
+.accordion-button:not(.collapsed) {
+  color: rgb(211, 127, 18);
+  background: #212529;
+}
+.accordion-body {
+  color: #ffffff;
+  background: #212529;
+}
