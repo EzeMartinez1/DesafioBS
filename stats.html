@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSproyect SASS</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./img/logo.png" alt="Logo CSproyect"width="30" height="30" class="d-inline-block align-text-top">
+            CSproyect
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-2 mb-2 mb-lg-0 px-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./updates.html">Actualizaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./stats.html">Estadisticas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./tips.html">Tips</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+           </div>
+        </div>
+      </nav>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+    </body>
+  <main class="py-5">
+    <div class="container">
+    
+    <select class="form-select" aria-label="Default select example">
+      <option selected>Mapa Jugado</option>
+      <option value="1">Dust II</option>
+      <option value="2">Inferno</option>
+      <option value="3">Mirage</option>
+    </select>
+    <form class="row g-3">
+      <div class="col-md-6">
+        <label for="inputScore1" class="form-label">Puntaje de tu equipo</label>
+        <input type="number" class="form-control" id="inputScore1">
+      </div>
+      <div class="col-md-6">
+        <label for="inputScore2" class="form-label">Puntaje de equipo oponente</label>
+        <input type="number" class="form-control" id="inputScore2">
+      </div>
+      <div class="row g-3">
+        <div class="col-sm">
+          <input type="number" class="form-control" placeholder="Puntos" aria-label="Puntos">
+        </div>
+        <div class="col-sm">
+          <input type="number" class="form-control" placeholder="Asistencias" aria-label="Asistencias">
+        </div>
+        <div class="col-sm">
+          <input type="number" class="form-control" placeholder="Muertes" aria-label="Muertes">
+        </div>
+      </div>
+      <div class="col-auto">
+        <button type="submit" class="btn btn-primary">Enviar</button>
+      </div>
+  </div>
+
+
+  </main>
+
+  <footer class="bg-dark text-center text-white">
+    <div class="container p-4 pb-0">
+      <section class="">
+        <form action="">
+          <div class="row d-flex justify-content-center">
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Suscribite a nuestro newsletter</strong>
+              </p>
+            </div>
+            <div class="col-md-5 col-12">
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example29" class="form-control" />
+                <label class="form-label" for="form5Example29">Direccion de email</label>
+              </div>
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Subscribirse
+              </button>
+            </div>
+            </div>
+           </form>
+      </section>
+       </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="#">CSproyect.com</a>
+    </div>
+  </footer>
+  </html>

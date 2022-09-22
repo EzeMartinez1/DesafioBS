@@ -1,0 +1,13 @@
+.accordion-button {
+    color: $mainColor;
+    background: $keyColor;
+  }
+  .accordion-button:not(.collapsed) {
+    color: $secondaryColor;
+    background: $keyColor;
+  }
+  .accordion-body {
+    color: $mainColor;
+    background: $keyColor;
+  }
+  

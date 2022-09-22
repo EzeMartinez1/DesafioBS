@@ -1,0 +1,48 @@
+body {
+    background-image:url(../img/fondo.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    font-family: $mainFont;
+    height:100vh; margin:0;
+
+}
+
+h2 {
+    color: $mainColor;
+    font-family: $mainFont;
+    font-weight: $textRegular;
+    font-size: $textLg;
+}
+
+h5 {
+    color:$mainColor;
+    font-family: $mainFont;
+    font-weight: $textBold;
+}
+h6 {
+    color: $mainColor;
+    font-weight: $textBold;
+    font-size: $textSm;
+}
+
+p {
+    color: $mainColor;
+    font-weight: $textThin;
+    font-size: $textSm;
+    
+}
+
+main section h2{
+    color: $mainColor;
+    font-family: $mainFont;
+    font-weight: $textRegular;
+    font-size: $textLg;
+    padding-left: 50px;
+}
+main label {
+    color: $mainColor;
+    font-family: $mainFont;
+    font-weight: $textRegular;
+    font-size: $textMd;
+}

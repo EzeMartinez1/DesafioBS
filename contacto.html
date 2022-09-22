@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CSproyect SASS</title>
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/main.css">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="./img/logo.png" alt="Logo CSproyect"width="30" height="30" class="d-inline-block align-text-top">
+            CSproyect
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-2 mb-2 mb-lg-0 px-5">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./updates.html">Actualizaciones</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./stats.html">Estadisticas</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./tips.html">Tips</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="./contacto.html">Contacto</a>
+              </li>
+            </ul>
+           </div>
+        </div>
+      </nav>
+      
+      
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous"></script>
+  </body>
+  <main class="py-5">
+    <div class="container-sm">
+      <form class="row g-3">
+        <div class="col-md-6">
+          <label for="inputName" class="form-label">Nombre</label>
+          <input type="email" class="form-control" id="inputName">
+        </div>
+        <div class="col-md-6">
+          <label for="inputLastname" class="form-label">Apellido</label>
+          <input type="password" class="form-control" id="inputLastname">
+        </div>
+        <div class="col-12">
+          <label for="inputProfile" class="form-label">Perfil de la comunidad Steam</label>
+          <input type="text" class="form-control" id="inputProfile" placeholder="https://steamcommunity.com/id/xxxxxxx">
+        </div>
+        <div class="col-12">
+          <label for="inputEmail" class="form-label">E-Mail</label>
+          <input type="text" class="form-control" id="inputEmail" placeholder="usuario@ejemplo.com">
+        </div>
+        <div class="col-md-6">
+          <label for="inputPhone" class="form-label">Teléfono</label>
+          <input type="text" class="form-control" id="inputPhone">
+        </div>
+        <div class="col-md-4">
+          <div class="mb-3">
+            <label for="inputSuggestion" class="form-label">Deja tu sugerencia/duda</label>
+            <textarea class="form-control" id="inputSuggestion" rows="3"></textarea>
+          </div>
+        </div>
+       <div class="col-12">
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+              Deseo recibir respuesta a esta duda/sugerencia
+            </label>
+          </div>
+        </div>
+        <div class="col-12">
+          <button type="submit" class="btn btn-primary">Enviar</button>
+        </div>
+      </form>
+  </main>
+  <footer class="bg-dark text-center text-white">
+    <div class="container p-4 pb-0">
+      <section class="">
+        <form action="">
+          <div class="row d-flex justify-content-center">
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Suscribite a nuestro newsletter</strong>
+              </p>
+            </div>
+            <div class="col-md-5 col-12">
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example29" class="form-control" />
+                <label class="form-label" for="form5Example29">Direccion de email</label>
+              </div>
+            </div>
+            <div class="col-auto">
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Subscribirse
+              </button>
+            </div>
+            </div>
+           </form>
+      </section>
+       </div>
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2022 Copyright:
+      <a class="text-white" href="#">CSproyect.com</a>
+    </div>
+  </footer>
+</html>

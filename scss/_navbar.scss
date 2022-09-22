@@ -1,0 +1,11 @@
+nav {  
+    font-family: $mainFont;
+    color: $mainColor;
+    font-weight: $textRegular;
+    font-size: $textMd;
+    ul{ list-style: none;
+        li{
+            margin-right: 30px;
+            }
+    }
+}
