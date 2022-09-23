@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300&display=swap");
+nav {
+  font-family: "Noto Sans", sans-serif;
+  color: #ffffff;
+  font-weight: 400;
+  font-size: 1.3em;
+}
+nav ul {
+  list-style: none;
+}
+nav ul li {
+  margin-right: 30px;
+}
+
+body {
+  background-image: url(../img/fondo.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  font-family: "Noto Sans", sans-serif;
+  height: 100vh;
+  margin: 0;
+}
+
+h2 {
+  color: #ffffff;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.8em;
+}
+
+h5 {
+  color: #ffffff;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 600;
+}
+
+h6 {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.8em;
+}
+
+p {
+  color: #ffffff;
+  font-weight: 200;
+  font-size: 0.8em;
+}
+
+main section h2 {
+  color: #ffffff;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.8em;
+  padding-left: 50px;
+}
+
+main label {
+  color: #ffffff;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+}
+
+.accordion-button {
+  color: #ffffff;
+  background: #212529;
+}
+
+.accordion-button:not(.collapsed) {
+  color: rgb(211, 127, 18);
+  background: #212529;
+}
+
+.accordion-body {
+  color: #ffffff;
+  background: #212529;
+}
+
+footer {
+  color: #ffffff;
+  font-family: "Noto Sans", sans-serif;
+  font-weight: 400;
+  font-size: 1.3em;
+  position: absolute;
+  width: 100%;
+  margin-top: 400px;
+}/*# sourceMappingURL=main.css.map */
